@@ -26,13 +26,25 @@ const CONFIG = {
   // Tambah project dengan menyalin 1 blok { ... }, lalu tempel di bawahnya.
   // Taruh gambar di folder images/. Ukuran gambar TIDAK diubah/di-crop.
   projects: [
-    { title: "Project Satu", description: "Deskripsi singkat project satu.", image: "images/project1.jpg", link: "" },
-    { title: "Project Dua", description: "Deskripsi singkat project dua.", image: "images/project2.jpg", link: "" },
+    {
+      title: "Poster Edukasi & Inspirasi: Mari Berbagi Kebaikan",
+      description:
+        "Poster bertema ajakan berbagi dan kebaikan ini dirancang menggunakan palet warna hangat bernuansa krem lembut, aksen oranye-merah muda, serta ilustrasi karakter anak yang ceria untuk menciptakan kesan ramah dan mudah diterima.",
+      image: "images/1.jpeg",
+      link: "",
+    },
+    {
+      title: "Glaze & Glory — Desain Flyer Promosi Donat & Daftar Varian",
+      description:
+        "Poster promosi produk kuliner untuk merek Glaze & Glory ini menonjolkan tampilan ilustrasi tiga donat berlapis glaze di atas piring dan kain kotak-kotak biru yang ditempatkan di tengah komposisi agar langsung menarik perhatian.",
+      image: "images/2.jpeg",
+      link: "",
+    },
   ],
 
   // ---------- CONTACT ----------
   contact: {
-    email: "emailkamu@gmail.com", // pesan dari form akan dikirim ke email ini
-    instagram: "https://www.instagram.com/username_kamu/",
+    email: " ferizkafella@gmail.com",
+    instagram: "https://www.instagram.com/fellaa__aaa/",
   },
 };
