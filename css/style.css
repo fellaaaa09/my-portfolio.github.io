@@ -1,0 +1,40 @@
+:root{
+  --abu-1:#eceef0; --abu-2:#d5d8dc; --abu-3:#a9aeb5;
+  --abu-4:#6b7078; --abu-5:#3f434a; --abu-6:#26292e;
+}
+body{background:var(--abu-1);color:var(--abu-6);font-family:"Segoe UI",system-ui,sans-serif;min-height:100vh;display:flex;flex-direction:column}
+main{flex:1}
+.site-nav{background:var(--abu-6)}
+.site-nav .nav-link{color:var(--abu-2)}
+.site-nav .nav-link:hover{color:#fff}
+.site-nav .nav-link.active{color:#fff;border-bottom:2px solid var(--abu-3)}
+.site-footer{background:var(--abu-5);color:var(--abu-2);font-size:.9rem}
+
+/* Dashboard */
+.hero{background:linear-gradient(135deg,var(--abu-4),var(--abu-6));color:#fff;padding:5rem 0}
+.hero h1{font-weight:700;font-size:clamp(2rem,5vw,3.5rem)}
+.hero .sub{color:var(--abu-2);font-size:1.15rem}
+.foto-bulat{width:240px;height:240px;border-radius:50%;object-fit:cover;border:6px solid var(--abu-3);background:var(--abu-2)}
+
+/* About */
+.foto-about{width:100%;max-width:300px;border-radius:12px;border:1px solid var(--abu-3)}
+.panel{background:#fff;border:1px solid var(--abu-2);border-radius:12px;padding:1.5rem}
+.table th{width:38%;color:var(--abu-4);font-weight:600}
+
+/* Project: gambar tampil dengan rasio ASLI (tanpa crop), border mengikuti gambar */
+.project-grid{column-gap:1.5rem;columns:1}
+@media(min-width:768px){.project-grid{columns:2}}
+@media(min-width:1100px){.project-grid{columns:3}}
+.project-item{break-inside:avoid;margin-bottom:1.5rem}
+.project-card{background:#fff;border:1px solid var(--abu-3);border-radius:10px;overflow:hidden}
+.project-card img{display:block;width:100%;height:auto}
+.project-body{padding:1rem}
+.project-body h5{margin-bottom:.25rem}
+.project-body p{color:var(--abu-4);font-size:.95rem}
+
+/* Contact */
+.btn-abu{background:var(--abu-5);color:#fff;border:0}
+.btn-abu:hover{background:var(--abu-6);color:#fff}
+.ig-link{display:inline-flex;align-items:center;justify-content:center;width:56px;height:56px;border-radius:50%;background:var(--abu-5);color:#fff;font-size:1.6rem;text-decoration:none;transition:background .2s}
+.ig-link:hover{background:var(--abu-6);color:#fff}
+.form-control:focus{border-color:var(--abu-4);box-shadow:0 0 0 .2rem rgba(107,112,120,.25)}
